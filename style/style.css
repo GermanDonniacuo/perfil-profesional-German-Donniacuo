@@ -65,13 +65,18 @@ span {
     text-decoration: underline double;
 }
 
-
-
-.imagen {
+.imagen  {
     margin: 35px 40px 30px 70px;
     border-radius: 50px;
-
+    
 }
+
+/* .frase_roger  {
+    text-align: justify;
+    line-height: 45px;
+    font-size: 30px;
+     background-image: linear-gradient(to top rgb(127, 122, 122), blue);
+} */
 
 
 div {
@@ -99,11 +104,11 @@ div {
 
 .caja {
 
-    background-color: rgba(204, 202, 202, 0.728);
+    background: rgba(204, 202, 202, 0.728);
+    background: linear-gradient(106deg, rgb(231, 230, 230) 3%, rgb(171, 173, 178) 44%);
     border-radius: 50px;
     margin: 40px;
     font-size: 25px;
-
 
 }
 
@@ -164,15 +169,15 @@ a {
 
     }
 
-   
+
 
     .pie {
         background-color: rgb(31, 76, 116);
 
     }
 
-  
- 
+
+
 
 
     /* YA NO DESAPARECE EL MENU */
