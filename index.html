@@ -11,37 +11,55 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style/style.css" />
 </head>
+
 <body>
     <!-- Encabezado -->
-    <header>
-        <nav class="menu">
-            <ul>
-                <li class="menu__item active"><a href="./index.html">Inicio</a></li>
-                <li class="menu__item"> <a href="./páginas/servicios.html">Servicios</a></li>
-                <li class="menu__item"> <a href="./páginas/cómotrabajaremos.html">Cómo Trabajaremos</a></li>
-                <li class="menu__item"><a href="./páginas/reservarturno.html">Reservar Turno</a></li>
-                <li class="menu__item"><a href="./páginas/recomendaciones.html">Recomendaciones</a></li>
-            </ul>
-            <!-- <span>😊</span> -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
 
-        </nav>
-        <div class="imagen">
-            <img class="imagen" src="./assets/imagenes/IMG_0088 cort2.JPG" alt="Germán Donniacuo"
-                title="Germán Donniacuo" />
+                    <li class="nav-item">
+                        <a class="nav-link" href="./páginas/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./páginas/cómotrabajaremos.html">Cómo Trabajaremos</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./páginas/reservarturno.html">Reservar Turno</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./páginas/recomendaciones.html">Recomendaciones</a>
+                    </li>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-            <!-- <p class="frase_roger">"Una persona al descubrir que es amada por como es, y no por lo que pretende ser,
+
+    <div class="imagen">
+        <img class="imagen" src="./assets/imagenes/IMG_0088 cort2.JPG" alt="Germán Donniacuo"
+            title="Germán Donniacuo" />
+
+        <!-- <p class="frase_roger">"Una persona al descubrir que es amada por como es, y no por lo que pretende ser,
                 sentirá que merece respeto y amor"
                 C. Roger
             </p> -->
 
-        </div>
+    </div>
 
 
-        <div class="titulo">
+    <div class="titulo">
 
-            <h1 class="h1">Psicólogo Germán Donniacuo</h1>
-            <h2 class="h2">Atención Online y Presencial</h2>
-        </div>
+        <h1 class="h1">Psicólogo Germán Donniacuo</h1>
+        <h2 class="h2">Atención Online y Presencial</h2>
+    </div>
 
 
 
@@ -77,19 +95,33 @@
     <!-- pie de pagina -->
     <footer>
         <section>
-            <nav class="pie">
-                <a class="menu_pie" href="./páginas/contacto.html">Contacto</a>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Subir</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./páginas/contacto.html">Contacto</a>
 
+                                <a class="nav-link active" aria-current="page"
+                                    href="https://goo.gl/maps/NNK5XwuZ9U5D49FZ6">Ubicación</a>
 
-                <iframe class="menu_pie"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.3390045200813!2d-60.694987282556156!3d-32.8892041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b653995be38b4f%3A0xb9a6353c71c12062!2sDr.%20Pedro%20Jos%C3%A9%20Agrelo%202523%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1660454279407!5m2!1ses!2sar"
-                    width="35" height="35" title="Ubicación" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
-
-                <a class="whatsapp" href="https://web.whatsapp.com/"><img src=".//assets/imagenes/whatsapp.svg"
-                        alt="whatsapp" title="whatsapp" width="50" height="50"></a>
-
+                                <a class="whatsapp" href="https://web.whatsapp.com/"><img
+                                        src=".//assets/imagenes/whatsapp.svg" alt="whatsapp" title="whatsapp" width="50"
+                                        height="50"></a>
+                            </li>
+                           
+                        
+                        </ul>
+                    </div>
+                </div>
             </nav>
+
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
