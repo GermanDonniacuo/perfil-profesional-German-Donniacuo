@@ -7,44 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="shortcut icon" href="../assets/imagenes/logo.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
     <link rel="stylesheet" href="../style/style.css" />
 </head>
 
 <body>
-
     <!-- Encabezado -->
     <header>
-        <nav class="menu">
-
-            <ul>
-                <li class="menu__item "><a href="../index.html">Inicio</a></li>
-                <li class="menu__item"> <a href="./servicios.html">Servicios</a></li>
-                <li class="menu__item "> <a href="./cómotrabajaremos.html">Cómo Trabajaremos</a></li>
-                <li class="menu__item "><a href="./reservarturno.html">Reservar Turno</a></li>
-                <li class="menu__item"><a href="./recomendaciones.html">Recomendaciones</a></li>
-
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fs-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../páginas/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../páginas/cómotrabajaremos.html">Cómo Trabajaremos</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../páginas/reservarturno.html">Reservar Turno</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../páginas/recomendaciones.html">Recomendaciones</a>
+                        </li>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section>
-            <div>
-                <!-- listas desordenadas -->
-                <ul>
-                    <li>
-                        <h1 class="h1">whatsapp 341-6172766</h1>
-                    </li>
-                    <li>
-                        <H2 class="h1">Email germandonniacuo@hotmail.com</H2>
-                    </li>
-                    <li>
-                        <h3 class="h1">Dirección Agrelo 2523, Rosario, Santa Fe, Argentina</h3>
-                    </li>
 
-                </ul>
+            <!-- Contacto -->
+            <div class="fs-3 mt-5">
+                <p>whatsapp: 341-6172766</p>
+                <p>Email: germandonniacuo@hotmail.com</p>
+                <p>Dirección: Agrelo 2523, Rosario, Santa Fe, Argentina</p>
             </div>
         </section>
     </main>
+    <!-- pie de pagina -->
+    <footer>
+        <section>
+
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark fs-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Subir</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../páginas/contacto.html">Contacto</a>
+
+                                <a class="nav-link active" aria-current="page"
+                                    href="https://goo.gl/maps/NNK5XwuZ9U5D49FZ6">Ubicación</a>
+
+                                <a class="whatsapp" href="https://web.whatsapp.com/"><img
+                                        src="..//assets/imagenes/whatsapp.svg" alt="whatsapp" title="whatsapp"
+                                        width="50" height="50"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17aRTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
