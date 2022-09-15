@@ -17,6 +17,32 @@
   border-style: double;
   border-color: rgb(233, 231, 231);
   box-sizing: border-box;
-} /*# sourceMappingURL=estilos.css.map */
-
-/*# sourceMappingURL=estilos.css.map */
+}
+.menu ul .menu__item a {
+  color: rgb(240, 240, 247);
+  margin: 3px;
+  padding: 3px;
+  text-decoration: none;
+}
+.menu ul .menu__item.active a,
+.menu ul .menu__item a:hover {
+  /* transition-property: all 4s; */
+  -webkit-text-decoration: underline double;
+  text-decoration: underline double;
+}
+.menu ul .imagen {
+  margin: 35px 40px 30px 70px;
+  border-radius: 50px;
+}
+.menu ul div {
+  margin-top: 10px;
+}
+.menu ul .titulo {
+  margin: 60px 55px 50px 70px;
+}
+.menu ul .titulo .h1 {
+  margin: 60px 55px 50px 60px;
+}
+.menu ul .titulo .h2 {
+  margin: 50px 55px 50px 60px;
+}
