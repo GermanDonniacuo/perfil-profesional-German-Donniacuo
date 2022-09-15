@@ -1,0 +1,47 @@
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    background-color: rgb(2, 3, 3);
+    font-weight: 900;
+    font-size: 24px;
+    border-width: 25px;
+    border-style: double;
+    border-color: $maincolor;
+    box-sizing: border-box;
+
+    .menu__item a  {
+           color: $maincolor;
+            margin: 3px;
+            padding: 3px;
+            text-decoration: none;
+            &:active;
+            &:hover {
+                /* transition-property: all 4s; */
+            text-decoration: underline double;
+            }        
+        }
+       
+     
+        .imagen {
+            margin: 35px 40px 30px 70px;
+            border-radius: 50px;
+
+        }
+
+        div {
+            margin-top: 10px;
+        }
+
+        .titulo {
+            margin: 60px 55px 50px 70px;
+
+            .h1 {
+                margin: 60px 55px 50px 60px;
+            .h2 
+                margin: 50px 55px 50px 60px;
+
+            }
+        }
+
+    }

@@ -1,0 +1,26 @@
+.pie {
+    list-style: none;
+    background-color: $secondarycolor;
+    margin: 200px 40px 80px 20px;
+
+    list-style: none;
+    background-color: $secondarycolor;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 30px;
+    padding: 15px;
+    border-width: 25px;
+    border-style: double;
+    border-color: $maincolor;
+    box-sizing: border-box;
+    margin-top: 200px;
+} 
+
+.menu_pie {
+    display: inline block;
+
+    color: $maincolor;
+
+} 
+
+
