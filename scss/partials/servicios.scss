@@ -1,0 +1,11 @@
+.imagen-servicios {
+    @extend $imagenes;
+}
+@mixin tamaños($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    }
+
+    .imagen-servicios {
+        @include tamaños(200px, 150px);
+    }
