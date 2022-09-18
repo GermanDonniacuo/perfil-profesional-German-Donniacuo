@@ -16,6 +16,7 @@
 } 
 
 .menu_pie {
+    &active
     display: inline block;
     color: $maincolor;
 

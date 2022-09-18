@@ -19,12 +19,14 @@
   box-sizing: border-box;
 }
 .menu ul .menu__item a {
+  -webkit-animation:scale-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+  animation:scale-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
   color: rgb(240, 240, 247);
   margin: 3px;
   padding: 3px;
   text-decoration: none;
 }
-.menu ul .menu__item.active a,
+.menu ul .menu__item.active a;
 .menu ul .menu__item a:hover {
   /* transition-property: all 4s; */
   -webkit-text-decoration: underline double;
@@ -46,3 +48,65 @@
 .menu ul .titulo .h2 {
   margin: 50px 55px 50px 60px;
 }
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+}
+.caja {
+
+  background: rgba(204, 202, 202, 0.728);
+  background: linear-gradient(106deg, rgb(231, 230, 230) 3%, rgb(171, 173, 178) 44%);
+  border-radius: 50px;
+  margin: 40px;
+  font-size: 25px;
+
+}
+
+.caja p {
+  text-align: justify;
+  line-height: 45px;
+  padding: 40px;
+
+}
+
+/* copie y pegue  */
+a {
+  margin: 40px 40px 40px 40px;
+  padding: 95px 80px 20px 20px;
+
+}
+
+.pie {
+  list-style: none;
+  background-color: $secondarycolor;
+  margin: 200px 40px 80px 20px;
+  list-style: none;
+  background-color: $secondarycolor;
+  font-weight: 900;
+  font-size: 24px;
+  margin: 30px;
+  padding: 15px;
+  border-width: 25px;
+  border-style: double;
+  border-color: $maincolor;
+  box-sizing: border-box;
+  margin-top: 200px;
+} 
+
+.menu_pie {
+  &active
+  display: inline block;
+  color: $maincolor;
+
+} 
+
+@-webkit-keyframes scale-in-top{0%{-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:50% 0;transform-origin:50% 0;opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 0;transform-origin:50% 0;opacity:1}}@keyframes scale-in-top{0%{-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:50% 0;transform-origin:50% 0;opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 0;transform-origin:50% 0;opacity:1}}
