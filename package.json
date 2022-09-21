@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "node-sass --include-path scss ./scss/estilos.scss ./css/estilos.css -w"
+    "build-sass": "node-sass -–include-path scss ./scss/estilos.scss ./css/estilos.css -w"
+
   },
-  "repository": {
+
+  "repository" : {
     "type": "git",
     "url": "git+https://github.com/GermanDonniacuo/perfil-profesional-german-donniacuo.git"
   },
